@@ -1,4 +1,4 @@
 steps:
 - name: "gcr.io/cloud-builders/gcloud"
-  args: ["app", "deploy", "--project=<your-project-name>"]
+  args: ["app", "deploy", "--project=AutoDeployFlask"]
 timeout: "1600s"
